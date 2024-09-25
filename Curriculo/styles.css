@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+body{
+    padding: 5rem 12rem 5rem 12rem;
+    background-color: #faf5ff;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+h1{
+    color: #3e0764;
+    font-weight: 600;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+h2{
+    color: #3e0764;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+h3{
+    color: #3e0764;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+p{
+    color: #141116;
+    font-weight: 300;
+    font-size: 12px;
+    padding-top: 1rem;
+    text-align: justify;
+}
+
+a, em{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+footer{
+    margin-top: 8rem;
+    padding: 2rem 1rem 2rem 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;   
+    justify-content: center;
+    gap: 4rem;
+    /* background-color: #ffffff61; */
+}
+
+ul, ol{
+    padding-inline-start: 1rem;
+}
+
+li{
+    color: #141116;
+    font-weight: 400;
+    font-size: 13px;
+    padding-top: 0.5rem;
+}
+
+.foto-sophya{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+
+.div-sobre{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-sobre{
+    padding: 2rem;
+    border-radius: 0.2rem;
+    background-color: #ffffff61;
+    width: 30%;
+    border-top: 2px solid #3e0764;
+}
+
+.titulo-sobre{
+    color: #3e0764;
+    font-weight: 600;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+
+.contato-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #6112a7;
+    border-radius: 2rem;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+}
+
+#section-nome{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 2rem;
+    align-items: center;
+}
+
+#section-perfil{
+    width: 50%;
+    border-left: 3px solid #3e0764;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    padding-left: 2rem;
+}
+
+
+
+
+/* Fontes */
+
+@font-face {
+	font-family: "Poppins";
+	src: url("/assets/fonts/Poppins-Thin.ttf") format("truetype");
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url("/assets/fonts/Poppins-ThinItalic.ttf") format("truetype");
+	font-weight: 100;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url("/assets/fonts/Poppins-Light.ttf") format("truetype");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url("/assets/fonts/Poppins-LightItalic.ttf") format("truetype");
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url("/assets/fonts/Poppins-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url("/assets/fonts/Poppins-Italic.ttf") format("truetype");
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url("/assets/fonts/Poppins-Medium.ttf") format("truetype");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url("/assets/fonts/Poppins-MediumItalic.ttf") format("truetype");
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url("/assets/fonts/Poppins-Bold.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url("/assets/fonts/Poppins-BoldItalic.ttf") format("truetype");
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url("/assets/fonts/Poppins-BlackItalic.ttf") format("truetype");
+	font-weight: 900;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url("/assets/fonts/Poppins-ExtraBold.ttf") format("truetype");
+	font-weight: 800;
+	font-style: normal;
+}

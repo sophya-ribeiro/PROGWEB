@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sophya Ribeiro">
+    <meta name="keywords" content="HTML, Diario, Professor">
+    <title>Exercício 3 - Formulário e Lista</title>
+
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Exercício 3 - Sophya Ribeiro</h1>
+    </header>
+
+    <main>
+        <section>
+
+            <h2>Formulário</h2>
+
+            <form>
+                <fieldset>
+                    <legend>Seu login</legend>
+
+                    <label>Usuário</label>
+                    <input type="text" placeholder="Digite seu usuário" pattern="" required>
+                    <label>Senha</label>
+                    <input type="password" placeholder="Senha" pattern="" required>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Dados pessoais</legend>
+
+                    <label for="phone">Telefone:</label><br>
+                    <input type="tel" id="phone" name="phone" placeholder="(99)9999-999"
+                        pattern="\([0-9]{2}\)[0-9]{4}-[0-9]{4}"><br>
+
+                    <label for="email">CPF:</label><br>
+                    <input type="email" id="email" name="email" placeholder="999.999.999-99"
+                        pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}" size="14"><br>
+
+                    <label for="aniversario">Data de nascimento:</label><br>
+                    <input type="date" id="aniversario" name="aniversario"><br>
+
+                </fieldset>
+
+                <input type="submit" value="Criar conta">
+            </form>
+        </section>
+
+        <section>
+            <h2>Listas</h2>
+
+            <h3>Navegadores mais usados no Brasil em 2024:</h3>
+
+            <ol>
+                <li>Chrome</li>
+                <li>Microsoft Edge</li>
+                <li>Opera</li>
+                <li>Safari</li>
+            </ol>
+
+            <dl>
+                <dt>Chromium</dt>
+                <dd>É a base para o Google Chrome de código aberto. Difere-se do Google Chrome por não possuir loicenças
+                    de algumas bibliotecas proprietárias para reprodução de mídia.</dd>
+
+                <dt>Browser</dt>
+                <dd>Termo em inglês que refere-se ao programa que permite usuários acessarem aplicações web.</dd>
+
+                <dt>Safari</dt>
+                <dd>Browser desenvolvido pela Apple para que os usários do seu ecossistema possam usar aplicações web.
+                </dd>
+            </dl>
+        </section>
+
+        <section>
+            <h2>Tabela</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Categoria</th>
+                        <th>Descrição</th>
+                        <th>Preço</th>
+                        <th>Quantidade</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td rowspan="3">Jogos Eletrônicos</td>
+                        <td>
+                            Mario Party
+                        </td>
+                        <td>R$ 245,00</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>The Witcher</td>
+                        <td>R$ 896,00</td>
+                        <td>4</td>
+                    </tr>
+
+                    <tr>
+                        <td>Castlevania</td>
+                        <td>R$ 55,00</td>
+                        <td>2</td>
+                    </tr>
+
+                    <tr>
+                        <td rowspan="2">Brinquedo</td>
+                        <td>Carrinho bate-bate</td>
+                        <td>R$ 20 hora</td>
+                        <td>15</td>
+                    </tr>
+
+                    <tr>
+                        <td>MaxSteel</td>
+                        <td>R$ 45,00</td>
+                        <td>2</td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">Total</td>
+                        <td>R$1509,90</td>
+                        <td>28</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+</body>
+
+</html>
