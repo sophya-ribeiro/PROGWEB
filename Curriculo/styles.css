@@ -6,7 +6,7 @@
 }
 
 body{
-    padding: 5rem 12rem 5rem 12rem;
+    padding: 3rem 12rem 3rem 12rem;
     background-color: #faf5ff;
 }
 
@@ -35,7 +35,7 @@ h2{
 h3{
     color: #3e0764;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 16px;
 }
 
 p{
@@ -47,13 +47,16 @@ p{
 }
 
 a, em{
-    color: #ffffff;
+    color: #000000;
     font-weight: 500;
     font-size: 15px;
+    text-decoration: none;
+    text-transform: none;
+    font-style: normal;
 }
 
 footer{
-    margin-top: 8rem;
+    margin-top: 2rem;
     padding: 2rem 1rem 2rem 1rem;
     border-radius: 0.5rem;
     display: flex;
@@ -69,9 +72,16 @@ ul, ol{
 
 li{
     color: #141116;
-    font-weight: 400;
-    font-size: 13px;
+    font-weight: 500;
+    font-size: 12px;
     padding-top: 0.5rem;
+}
+
+.texto-formacao{
+    color: #141116;
+    font-weight: 500;
+    font-size: 12px;
+    padding-bottom: 1rem;;
 }
 
 .foto-sophya{
@@ -107,7 +117,7 @@ li{
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    background-color: #6112a7;
+    background-color: #ead5ff;
     border-radius: 2rem;
     padding: 0.5rem 2rem 0.5rem 2rem;
 }
